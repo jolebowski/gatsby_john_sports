@@ -31,6 +31,7 @@ export default class Navbar extends Component {
   }
 
   render() {
+    const { css } = this.state
     return (
       <nav
         className="navbar
@@ -47,7 +48,7 @@ export default class Navbar extends Component {
         >
           <span className="navbar-toggler-icon" />
         </button>
-        <div className={this.state.css}>
+        <div className={css}>
           <ul className="navbar-nav mx-auto">
             {this.state.links.map(link => {
               return (

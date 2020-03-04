@@ -26,7 +26,8 @@ h5 {
   color: var(--mainOrange);
   font-size: 2rem;
 }
-.default-background {
+.default-background,
+.about-background {
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -34,6 +35,9 @@ h5 {
   background: linear-gradient(rgba(255, 157, 9, 0.5), rgba(255, 157, 9, 0.5));
   background-position: center;
   background-size: cover;
+}
+.about-background {
+  min-height: 60vh;
 }
 .btn-orange {
   color: var(--mainOrange);

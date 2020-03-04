@@ -31,10 +31,7 @@ h5 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(
-    rgba(255, 157, 9, 0.507),
-    rgba(255, 157, 9, 0.527)
-  );
+  background: linear-gradient(rgba(255, 157, 9, 0.5), rgba(255, 157, 9, 0.5));
   background-position: center;
   background-size: cover;
 }
@@ -45,4 +42,7 @@ h5 {
 .btn-orange:hover {
   background: var(--mainOrange);
   color: var(--mainGreen);
+}
+.footer {
+  background: var(--mainGreen);
 }

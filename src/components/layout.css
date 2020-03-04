@@ -1,0 +1,28 @@
+:root {
+  --mainGreen: #2e8b57;
+  --mainOrange: #ff8c00;
+  --mainGrey: #a9a9a9;
+  --mainWhite: #ffffff;
+  --mainBlack: #222222;
+}
+body {
+  background: var(--mainWhite);
+  color: var(--mainBlack);
+  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+h1,
+h1,
+h3,
+h4,
+h5 {
+  font-family: "Times New Roman", Times, serif !important;
+  letter-spacing: 0.25rem !important;
+}
+.textOrange {
+  color: var(--mainOrange);
+}
+.car-icon {
+  cursor: pointer;
+  color: var(--mainOrange);
+  font-size: 2rem;
+}

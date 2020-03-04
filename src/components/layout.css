@@ -38,3 +38,11 @@ h5 {
   background-position: center;
   background-size: cover;
 }
+.btn-orange {
+  color: var(--mainOrange);
+  border-color: var(--mainOrange);
+}
+.btn-orange:hover {
+  background: var(--mainOrange);
+  color: var(--mainGreen);
+}

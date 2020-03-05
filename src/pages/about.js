@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import BackgroundSection from "../components/Globals/BackgroundSection"
 import Info from "../components/Home/Info"
+import Team from "../components/About/Team"
 
 const AboutPage = ({ data }) => (
   <Layout>
@@ -15,11 +16,19 @@ const AboutPage = ({ data }) => (
       styleClass="about-background"
     />
     <Info />
+    <Team imgTeam={data.team} />
   </Layout>
 )
 export const query = graphql`
   {
     img: file(relativePath: { eq: "aboutBackground.jpg" }) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid_tracedSVG
+        }
+      }
+    }
+    team: file(relativePath: { eq: "team.jpg" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid_tracedSVG

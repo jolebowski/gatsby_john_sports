@@ -64,7 +64,7 @@ export default class Navbar extends Component {
               )
             })}
             <li className="nav-item ml-sm-5">
-              <FaCartArrowDown className="car-icon" />
+              <FaCartArrowDown className="car-icon snipcart-checkout" />
             </li>
           </ul>
         </div>

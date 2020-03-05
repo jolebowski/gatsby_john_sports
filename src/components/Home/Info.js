@@ -23,9 +23,7 @@ const Info = () => (
             maximus vulputate.
           </p>
           <Link to="/about">
-            <button className="btn text-uppercase btn-orange">
-              A propos de la page
-            </button>
+            <button className="btn text-uppercase btn-orange">+ d'infos</button>
           </Link>
         </div>
       </div>

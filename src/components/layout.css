@@ -1,7 +1,7 @@
 :root {
   --mainGreen: #2e8b57;
   --mainOrange: #ff8c00;
-  --mainGrey: #a9a9a9;
+  --mainGrey: #d3d3d3;
   --mainWhite: #ffffff;
   --mainBlack: #222222;
 }
@@ -49,4 +49,7 @@ h5 {
 }
 .footer {
   background: var(--mainGreen);
+}
+.menu {
+  background: var(--mainGrey);
 }

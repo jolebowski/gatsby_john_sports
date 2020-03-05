@@ -50,7 +50,8 @@ h5 {
 .footer {
   background: var(--mainGreen);
 }
-.menu {
+.menu,
+.contact {
   background: var(--mainGrey);
 }
 .team {

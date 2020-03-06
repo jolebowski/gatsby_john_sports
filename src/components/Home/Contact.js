@@ -47,7 +47,7 @@ const Contact = () => {
               type="submit"
               className="btn btn-orange btn-block text-capitalize mt-5"
             >
-              submit
+              Envoyer
             </button>
           </form>
         </div>

@@ -13,6 +13,7 @@ const Product = ({ product }) => (
           data-item-name={product.title}
           data-item-price={product.price}
           data-item-image={product.image.fluid.src}
+          data-item-url="https://john-sports-gatsby.netlify.com/"
         >
           Ajouter au panier
         </button>
